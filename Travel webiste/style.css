@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	width:90%;
+	margin:auto;
+}
+.heading {
+	padding:10px 0;
+	color:white;
+	font-weight: bold;
+	font-size:3rem;
+	font-family: 'Open Sans', sans-serif;
+}
+.nav-links {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	padding-top:13px;
+}
+.nav-links a {
+	color:white;
+	padding:10px 20px;
+	text-decoration: none;
+	font-size:1.2rem;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+}
+nav .btn{
+	height:min-content;
+	width:170px;
+}
+.btn{
+	padding:0.4rem 0.8rem;
+	border:none;
+	border-radius: 7px;
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	cursor: pointer;
+	transition: all .5s ease;
+}
+
+.btn-transparent {
+	background: transparent;
+	border:1px solid #fff;
+}
+header{
+	width:100%;
+	height:85vh;
+	background: url('images/background2.jpg')no-repeat center center/cover;
+}
+.secondary-heading {
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-size:2rem;
+	color:#fff;
+	text-transform: lowercase;
+}
+input[type='search'] {
+	padding:0.4rem 0.8rem;
+	font-size: 1.7rem;
+	width:40%;
+	margin-top:0.5em;
+}
+.btn-primary{
+	background: #f85858;
+	color:#fff;
+	font-size:1.7rem;
+}
+.wrapper .btn {
+	border-radius: 0;
+}
+.options {
+	margin-top:20px;
+}
+.btn-white{
+	font-size:1.2rem;
+}
+.wrapper {
+	margin-left:7rem;
+	margin-top: 1em;
+}
+section{
+	width:90%;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top:-170px;
+}
+.card i{
+	font-weight: bold !important;
+	font-size:3.5rem !important;
+	color:#f85858 !important;
+	margin-top:10px;
+	display: flex;
+	justify-content: center;
+	transition: all .5s ease-in;
+	padding-top:5px;
+}
+.card i:hover{
+	transform: translateY(-10px);
+}
+.card .heading{
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1.4rem;
+	text-align: center;
+	color:#333;
+}
+.card .lead{
+	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1rem;
+	text-align: center;
+	color:#333;
+}
+.card {
+	background: #fff;
+	margin:0 1em;
+	height:max-content;
+	padding-bottom: 2em;
+	box-shadow: 0 0 20px #333;
+	text-align: center;
+}
+.btn-secondary{
+	background: #f85858;
+	color:white;
+	margin-top:10px;
+	font-size:1.2rem;
+}
+.btn:hover{
+	transform: scale(.9);
+}
