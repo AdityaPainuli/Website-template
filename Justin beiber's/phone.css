@@ -1,0 +1,80 @@
+@media (max-width:1400px){
+   
+}
+@media (max-width:900px){
+    .heading_primary,.logo{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    header{
+        height:max-content;
+    }
+    .wrapper{
+        flex-direction: column-reverse;
+    }
+   .hire-me{
+       flex-direction: column-reverse;
+   }
+    .wrapper img{
+        height:40vh;
+    }
+   
+   
+}
+
+@media (max-width:700px) {
+   .project-card{
+    grid-gap:1em;
+    margin:3px;
+   }
+   .latest-projects {
+       width:100%;
+   }
+   footer h3{
+       font-size: 1rem;
+   }
+   footer a i{
+        margin:10px;
+        font-size:2rem;
+   }
+   form{
+       width: 80%;
+   }
+}
+@media (max-width:450px) {
+   .skillset-cards{
+       grid-gap:0.5em;
+   }
+   .skillset{
+       width:95%;
+       margin:auto;
+   }
+   .skillset-card{
+       padding:0.5em;
+       margin:0 5px;
+   }
+   .projects{
+       margin:0;
+       padding:0;
+       grid-gap:1em;
+   }
+   .latest-projects{
+       text-align: left;
+   }
+   .latest-projects p{
+       font-size:0.9rem;
+       font-weight: 200;
+   }
+   .project-card img{
+       width:95%;
+   }
+   .info{
+       font-size:1rem;
+       text-align: left;
+   }
+   form{
+       width:90%;
+   }
+}
+
+
