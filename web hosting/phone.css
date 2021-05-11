@@ -1,0 +1,179 @@
+@media (max-width:1400px) {
+   nav{
+       display: flex;
+       flex-direction: column;
+
+   }
+   nav i {
+       display: block;
+       opacity: 1;
+   }
+   .nav_links{
+       display: flex;
+       flex-direction: column;
+       width:100%;
+       background-color: white;
+       text-align: center;
+       transform: translateY(-400px);
+   }
+   .nav_links li{
+    margin:10px auto;
+   }
+   .nav_links a{
+    color:#333;
+   }
+   .nav_links .btn-transparent{
+       color:#333;
+       border:2px solid #333;
+       width:max-content;
+       margin:10px auto;
+   }
+   .wrapper img{
+       display: none;
+   }
+   .info_wrapper{
+       width:100%;
+       padding:0 4rem;
+   }
+   .search-section,section,.footer_primary {
+       display: flex;
+       flex-direction: column;
+   }
+   .search-info,.about_info,.footer_real{
+       width:100%;
+   }
+   .search-area{
+       text-align: center;
+       width:100%;
+       padding:0;
+   }
+   .info{
+        display: flex;
+        justify-content: center;
+   }
+   .plan-card{
+       margin-top:20px;
+   }
+   section img{
+       margin:2em auto;
+        width:50%;
+   }
+  .footer_real {
+      padding:2em;
+      text-align: center;
+  }
+  .footer_form{
+      width:90%;
+      padding-left:0;
+      margin:20px auto;
+  }
+  .footer_form img{
+      width:40%;
+      margin:auto;
+  }
+}
+@media (max-width:700px){
+    .footer_form{
+        width:100%;
+        text-align:center;
+        padding:0 30px;
+       
+    }
+    .plan-card,.amazing-card{
+        margin:20px auto;
+    }
+    .search-info{
+        text-align: center;
+        margin:0;
+        padding-left:0;
+    }
+}
+@media (max-width:600px) {
+    .footer_real {
+        padding:0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer_real ul{
+        margin:0 20px;
+    }
+    footer{
+        padding:0;
+    }
+    .faqs,.gallery,.plan-cards{
+        width:100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:0 5px;
+    }
+    .second p{
+        padding:10px;
+        width: 100%;
+    }
+    .heading_primary,h1{
+        font-size:1.6rem !important;
+    }
+    p{
+        font-size:1.2rem !important;
+    }
+    nav img {
+        margin-right: auto;
+        margin-left:3px;
+    }
+    
+}
+@media (max-width:470px){
+    .info{
+        display: none;
+    }
+    .plan-cards,.amazing-gallery{
+        padding:0;
+    }
+    .plan-card{
+        width:80%;
+        margin:10px auto;
+    }
+    .feature-card p{
+        padding:0 5px !important;
+    }
+    .info_wrapper {
+        padding-left:20px;
+    }
+    .amazing-card {
+        width:90%;
+        margin:10px auto;
+    }
+     .btn-transparent {
+        font-size:1.2rem !important;
+    }
+    nav i {
+        font-size:1.5rem;
+        padding:0;
+    }
+    .footer_real{
+        margin:auto;
+        text-align: center;
+        justify-content: center;
+    }
+}
+@media (max-width:370px) {
+    .amazing-card{
+        width:80%;
+        margin:auto;
+    }
+    .heading_primary,h1{
+        font-size:1.5rem !important;
+    }
+    p{
+        font-size:1rem !important;
+    }
+    nav img{
+       position: absolute;
+       top:10px;
+       left:10px;
+    }
+    .about_info {
+        padding:1em 0;
+    }
+    
+}
