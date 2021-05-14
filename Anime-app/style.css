@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+}
+body{
+    background-color:#333;
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+   
+}
+nav {
+    display: flex;
+    height:70px;
+    align-content: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size:3rem;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding:0 10px;
+    z-index:3;
+}
+.nav_links{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-content: center;
+    padding-top:20px;
+    transition:all .5s ease;
+}
+.nav_links li {
+    cursor:pointer;
+    margin:0 20px;
+    color:white;
+    font-size:1.2rem;
+    font-weight: 300;
+    position:relative;
+    transition:all .5s ease;
+}
+li:hover{
+    color:aliceblue;
+    transform: scale(0.9);
+}
+nav input {
+    padding:0.4rem 2.8rem;
+    margin:auto 20px;
+    border:none;
+    border-radius: 7px;
+    font-size:1.3rem;
+    height:max-content;
+}
+section {
+    width:90%;
+    margin:4rem auto;
+    
+}
+h1{
+    padding:10px 0;
+    font-size:1.8rem;
+    cursor:default;
+}
+.cards {
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.card {
+    width:300px;
+    height:max-content;
+    margin:10px;
+    padding:10px 5px;
+}
+.card img {
+    transition: all .5s ease;
+    display:flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+.card:hover img {
+    transform: scale(1.1);
+    transform: translateY(-10px);
+}
+.info h1{
+    font-size:1.2rem;
+    font-weight: bolder;
+    padding:5px 10px;
+    
+}
+form {
+    margin:20px 5px;
+}
+nav i {
+    font-size:2.5rem;
+    padding:10px;
+    cursor:pointer;
+    transition:all .5s ease;
+    display: none !important;
+    z-index: 3;
+    position:absolute;
+    top:0;
+    right:0;
+}
+nav i:focus{
+    transform: scale(0.9);
+}
+.dark {
+    color:#333 !important;
+}
+@media (max-width:1400px){
+    .logo{
+        font-size:1.6rem;
+        padding:15px;
+    }
+}
+@media (max-width:1133px){
+    nav i {
+        display: block !important;
+    }
+    .nav_links{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        background-color:white;
+        height:max-content;
+        position:absolute;
+        top:0;
+        left:0;
+        text-align: center;
+        z-index:2;
+        transform :translateY(-100%);
+    }
+    .nav_links li {
+        color:#333 !important;
+        padding:1em 0;
+        font-weight: bold;
+
+    }
+    .active {
+       transform :translateY(0%);
+    }
+   
+}
+@media (max-width:700px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:400px) {
+    
+}
