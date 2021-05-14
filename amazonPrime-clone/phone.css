@@ -1,0 +1,49 @@
+@media (max-width:1150px) {
+    .wrapper h1{
+        font-size:2rem;
+    }
+    .wrapper p{
+        font-size:1.2rem;
+    }
+    .btn{
+        padding: 0.4rem 0.8rem;
+        font-size:1.4rem;
+    }
+}
+@media (max-width:800px) {
+    footer div{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        width:60vw;
+        margin:0 auto;
+    }
+}
+@media (max-width:700px) {
+    .first-background,
+    .second-background,
+    .third-background,
+    .fourth-background,
+    .fifth-background {
+        height:max-content;
+        background:#333;
+        color:white;
+    }
+    .wrapper{
+        background:#333;
+        color:white;
+        width:100vw !important;
+    }
+    .gallery {
+        width:100%;
+        padding:0;
+        grid-gap:0;
+        height:max-content;
+    }
+    .card {
+        height:max-content;
+    }
+    .card p{
+        padding:5px 0;
+    }
+}
